@@ -1,0 +1,67 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    background-color: white;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 55%;
+    margin-left: 90px;
+    border-radius: 8px;
+
+}
+
+.ul-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+}
+
+.li-navbar {
+    margin: 10px;
+}
+
+img {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.wrap-pp p {
+    margin-left: 30px;
+    font-size: 20px;
+   
+}
+
+.jumlah {
+    background-color: rgb(120, 120, 252);
+    width: 30px;
+    padding: 4px;
+    border-radius: 8px;
+ }
+
+ .isi-post p {
+    text-align: center;
+ }
+
+ 
+ .post-personal {
+    background-color: aliceblue;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 8px;
+ }
